@@ -1,3 +1,21 @@
+//CREATE const for message and message container
+//CREATE const array to hold all squares then ADD to each an event listener with a for loop
+//ASSIGN variables to hold values for:
+    //whose turn it is (player),
+    //what squares have been clicked (score),
+    //how many squares have been clicked (full),
+    //if a winning combination has been created (gameover)
+//ADD event listeners for both reset buttons
+//CREATE const for modal
+//CREATE functions for:
+    //opening modal,
+    //clearing the board,
+    //assesing if its a tie,
+    //changing the message stating whose turn it is
+    //asssigning value to correspong index of 'score' when squre is clicked
+    //checking score to see if a winning combination has been made
+    //changing color of square that was clicked if it hasn't already been clicked
+
 const messageContainer = document.querySelector('#message-container')
 const message = document.querySelector('#message')
 
