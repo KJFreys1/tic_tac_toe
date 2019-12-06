@@ -1,0 +1,127 @@
+#message-container {
+    background-color: red;
+    color: white;
+    width: 400px;
+    height: 100px;
+    margin: 35px auto 50px auto;
+    text-align: center;
+}
+
+#message {
+    line-height: 100px;
+    font-size: 35px;
+}
+
+#game-board {
+    width: 100%;
+    height: 100%;
+}
+
+#grid-wrapper {
+    display: grid;
+    width: 700px;
+    height: 75%;
+    grid-gap: 20px;
+    background-color: #9e7a55;
+    border-radius: 40px;
+    padding: 40px;
+    justify-content: center;
+    margin: auto;
+}
+
+.square {
+    background-color: #615d58;
+    height: 200px;
+    width: 200px;
+}
+
+#u-l {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#u-m {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#u-r {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#m-l {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#m-m {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#m-r {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#l-l {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#l-m {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#l-r {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.reset-footer {
+    width: 200px;
+    margin: auto auto 200px auto;
+    padding: 30px;
+}
+
+.reset-button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin: auto 25px;
+}
+
+#modal {
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+	display: none;
+}
+
+#modal-textbox {
+    background-color: #f0d0aa;
+	height: 350px;
+	width: 550px;
+	border-radius: 2px;
+	margin: 150px auto;
+	box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+	padding: 2%;
+	line-height: 120%;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.modal-footer {
+    margin-top: 150px;
+}
+
+h1 {
+	padding-bottom: 15px;
+}
